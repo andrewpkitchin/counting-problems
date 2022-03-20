@@ -32,10 +32,10 @@ Placing three X’s and three O’s - (9 CHOOSE 3) * (6 CHOOSE 3) - 8 * (6 CHOOS
 
 Placing four X’s and three O’s - (9 CHOOSE 4) * (5 CHOOSE 3) - 8 * (6 CHOOSE 4) = 1140
 
-Placing four X’s and four O’s - (9 CHOOSE 4) * (5 CHOOSE 4) - 8 * (6 CHOOSE 4)*2 = 390 
+Placing four X’s and four O’s - (9 CHOOSE 4) * (5 CHOOSE 4) - 8 * (6 CHOOSE 4) * 2 = 390 
 
 Placing five X’s and four O’s - (9 CHOOSE 5) * (4 CHOOSE 4) - 8 * (6 CHOOSE 5) = 78 
 
-Summing all of these states gives 5,478 possible legal states for the game. In other reference material, you may see the figure stated as 5,477 which discounts the empty board that we have counted.
+Summing all of these states gives **5,478** possible legal states for the game. In other reference material, you may see the figure stated as 5,477 which discounts the empty board that we have counted.
 
 **Symmetry -** Note, we have not considered that fundamentally many states are equivalent up to symmetry. For example, the 9 choices for placing one X and zero O’s can be derived by applying rotations to three states - an X in a corner, an X in the middle spot, and an X in a middle edge spot. Therefore instead of 9 states, we would only count 3.
