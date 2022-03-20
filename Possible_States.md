@@ -28,13 +28,13 @@ Placing two X’s and two O’s - (9 CHOOSE 2) * (7 CHOOSE 2) = 756
 
 Placing three X’s and two O’s - (9 CHOOSE 3) * (6 CHOOSE 2) = 1260
 
-Placing three X’s and three O’s - (9 CHOOSE 3) * (6 CHOOSE 3) - 8*(6 CHOOSE 3) = 1520
+Placing three X’s and three O’s - (9 CHOOSE 3) * (6 CHOOSE 3) - 8 * (6 CHOOSE 3) = 1520
 
-Placing four X’s and three O’s - (9 CHOOSE 4) * (5 CHOOSE 3) - 8*(6 CHOOSE 4) = 1140
+Placing four X’s and three O’s - (9 CHOOSE 4) * (5 CHOOSE 3) - 8 * (6 CHOOSE 4) = 1140
 
-Placing four X’s and four O’s - (9 CHOOSE 4) * (5 CHOOSE 4) - 8*(6 CHOOSE 4)*2 = 390 
+Placing four X’s and four O’s - (9 CHOOSE 4) * (5 CHOOSE 4) - 8 * (6 CHOOSE 4)*2 = 390 
 
-Placing five X’s and four O’s - (9 CHOOSE 5) * (4 CHOOSE 4) - 8*(6 CHOOSE 5) = 78 
+Placing five X’s and four O’s - (9 CHOOSE 5) * (4 CHOOSE 4) - 8 * (6 CHOOSE 5) = 78 
 
 Summing all of these states gives 5,478 possible legal states for the game. In other reference material, you may see the figure stated as 5,477 which discounts the empty board that we have counted.
 
