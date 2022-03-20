@@ -17,14 +17,23 @@ The second bracketed term will capture the number of O’s we are placing and wi
 Finally, once we have placed enough X’s or O’s for victories to happen we subtract a term to account for this. 
 
 Placing zero X’s and zero O’s - (9 CHOOSE 0)*(8 CHOOSE 0) = 1  
+
 Placing one X and zero O’s - (9 CHOOSE 1)*(8 CHOOSE 0) = 9   
+
 Placing one X’s and one O - (9 CHOOSE 1)*(8 CHOOSE 1) = 72   
+
 Placing two X’s and one O - (9 CHOOSE 2)*(7 CHOOSE 1) = 252 
+
 Placing two X’s and two O’s - (9 CHOOSE 2)*(7 CHOOSE 2) = 756
+
 Placing three X’s and two O’s - (9 CHOOSE 3)*(6 CHOOSE 2) = 1260
+
 Placing three X’s and three O’s - (9 CHOOSE 3)*(6 CHOOSE 3) - 8*(6 CHOOSE 3) = 1520
+
 Placing four X’s and three O’s - (9 CHOOSE 4)*(5 CHOOSE 3) - 8*(6 CHOOSE 4) = 1140
+
 Placing four X’s and four O’s - (9 CHOOSE 4)*(5 CHOOSE 4) - 8*(6 CHOOSE 4)*2 = 390 
+
 Placing five X’s and four O’s - (9 CHOOSE 5)*(4 CHOOSE 4) - 8*(6 CHOOSE 5) = 78 
 
 Summing all of these states gives 5,478 possible legal states for the game. In other reference material, you may see the figure stated as 5,477 which discounts the empty board that we have counted.
