@@ -1,12 +1,12 @@
-Tic Tac Toe - Possible States on a 3x3 board
+**Tic Tac Toe - Possible States on a 3x3 board**
 
-Bounded Above - The number of possible states is bounded above by 9! Why? There are 9 possibilities for the first choice, 8 for the second, and so on. 
+**Bounded Above -** The number of possible states is bounded above by 9! Why? There are 9 possibilities for the first choice, 8 for the second, and so on. 
 
 9! = 362880
 
 This by no means is a sharp bound, since this number counts games that are impossible. For example, the boards which follow from a position where the first three X’s are in a row are still counted.
 
-How to do better? - We will document a formula to give intuition on how we might enumerate all of the different legal game states. Some of the terms in the calculation are unnecessary and are only included to aid with consistency and explanation.
+**How to do better? -** We will document a formula to give intuition on how we might enumerate all of the different legal game states. Some of the terms in the calculation are unnecessary and are only included to aid with consistency and explanation.
 
 Essentially the way to build the formula for each set of states uses the following logic:
 
@@ -29,4 +29,4 @@ Placing five X’s and four O’s - (9 CHOOSE 5)*(4 CHOOSE 4) - 8*(6 CHOOSE 5) =
 
 Summing all of these states gives 5,478 possible legal states for the game. In other reference material, you may see the figure stated as 5,477 which discounts the empty board that we have counted.
 
-Symmetry - Note, we have not considered that fundamentally many states are equivalent up to symmetry. For example, the 9 choices for placing one X and zero O’s can be derived by applying rotations to three states - an X in a corner, an X in the middle spot, and an X in a middle edge spot. Therefore instead of 9 states, we would only count 3.
+**Symmetry -** Note, we have not considered that fundamentally many states are equivalent up to symmetry. For example, the 9 choices for placing one X and zero O’s can be derived by applying rotations to three states - an X in a corner, an X in the middle spot, and an X in a middle edge spot. Therefore instead of 9 states, we would only count 3.
