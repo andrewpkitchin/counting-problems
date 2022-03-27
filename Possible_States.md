@@ -43,5 +43,6 @@ We have subtracted 8 * (6 CHOOSE 4) * 2 to account for all of the board states (
 We have subtracted 8 * (6 CHOOSE 5) to account for all of the board states (with five X’s and four O’s) that contain a win for O. There are 8 win lines and (6 CHOOSE 5) ways to place the X’s.  
 
 **Result -** Summing all of these states gives **5,478** possible legal states for the game. In other reference material, you may see the figure stated as 5,477, which discounts the empty board that we have counted.
-A Note on Symmetry - We have not considered that fundamentally many states are equivalent up to symmetry. For example, the 9 choices for placing one X and zero O’s can be derived by applying rotations to three states - an X in a corner, an X in the middle spot, and an X in a middle edge spot. Therefore instead of 9 states, we would only count 3.
+
+**A Note on Symmetry** - We have not considered that fundamentally many states are equivalent up to symmetry. For example, the 9 choices for placing one X and zero O’s can be derived by applying rotations to three states - an X in a corner, an X in the middle spot, and an X in a middle edge spot. Therefore instead of 9 states, we would only count 3.
 
