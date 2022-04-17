@@ -7,6 +7,8 @@ By no means is this a sharp bound since this number counts states that are impos
 
 **How to do better?** - We will document a formula to give intuition on how we might enumerate all of the different legal game states. Some of the terms in the calculation are unnecessary and are only included to aid with consistency and explanation.
 
+Recall - If we want to count the ways to choose k things from n things we use the binomial coefficient formula n CHOOSE k = n!/ k!(n-k)!. Remember we are dividing by k! to account for the reorderings we are counting when we use n P k = n!/(n-k)!. 
+
 Essentially the way to build the formula for each set of states uses the following logic:
 
 There are nine squares on the board. If we always consider placing n X’s first (where 0<n<6) the first bracketed term in each of our expressions will be of the form (9 CHOOSE n).
