@@ -30,15 +30,15 @@ Finally, once we have placed enough X’s or O’s for victories to happen, we s
 
 We have subtracted 8 * (6 CHOOSE 3) to account for all of the board states (with three X’s and three O’s) that contain a win for X. There are 8 win lines and (6 CHOOSE 3) ways to place the O’s. NOTE: Thinking about calculating the number of states, we don’t need to consider the order in which the three X’s, or three O’s, are placed.     
 
-**Placing four X’s and three O’s** - (9 CHOOSE 4) * (5 CHOOSE 3) - 8 * (6 CHOOSE 4) = 1140
+**Four X’s and three O’s** - (9 CHOOSE 4) * (5 CHOOSE 3) - 8 * (6 CHOOSE 4) = 1140
 
 We have subtracted 8 * (6 CHOOSE 4) to account for all of the board states (with four X’s and three O’s) that contain a win for O. There are 8 win lines and (6 CHOOSE 4) ways to place the X’s.  
 
-**Placing four X’s and four O’s** - (9 CHOOSE 4) * (5 CHOOSE 4) - 8 * (6 CHOOSE 4) * 2 = 390
+**Four X’s and four O’s** - (9 CHOOSE 4) * (5 CHOOSE 4) - 8 * (6 CHOOSE 4) * 2 = 390
 
 We have subtracted 8 * (6 CHOOSE 4) * 2 to account for all of the board states (with four X’s and four O’s) that contain a win for X. Here, we will think in terms of placing three X’s, then four O’s, then the final X. Hence, 8 for the win lines, (6 CHOOSE 4) ways to place the four O’s, and two ways to place the last X.  
 
-**Placing five X’s and four O’s** - (9 CHOOSE 5) * (4 CHOOSE 4) - 8 * (6 CHOOSE 5) = 78
+**Five X’s and four O’s** - (9 CHOOSE 5) * (4 CHOOSE 4) - 8 * (6 CHOOSE 5) = 78
 
 We have subtracted 8 * (6 CHOOSE 5) to account for all of the board states (with five X’s and four O’s) that contain a win for O. There are 8 win lines and (6 CHOOSE 5) ways to place the X’s.  
 
