@@ -1,4 +1,4 @@
-Shoe Factory Problem
+**Shoe Factory Problem**
 
 There are six shoes in a bag.
 There are two size 4s, two size 5s, and two size 6s.
@@ -29,8 +29,11 @@ We can now approach the problem by calculating the number of configurations with
 We will go through the calculation step by step:
 
 Pick one of the pairs to be the first unacceptable pair - (X3)
+
 There are two unique choices for the first item - (X2)
+
 One unique choice for the second item - (X1)
+
 The remaining slots should be filled by numbers from the set {4,5,5,6}. The total ways to arrange this, taking into account that we have two 5s, is 4!/2! - (X12)
 
 In total, we have 3X2X12 = 72
@@ -38,7 +41,8 @@ In total, we have 3X2X12 = 72
 We have double-counted the cases where there are exactly two unacceptable pairs. We’ll need to calculate how many there are and remove them:
 
 Pick one of the pairs to be acceptable [5 5] - (X3)
-The remaining slots should be filled by numbers from the set {4,4,6,6}. The total ways to arrange this, taking into account that we have duplicate 4s and 6s is 4!/2!2!=6. We also need to remove the two orders, which are successes, namely [4 4] [6 6] and [6 6] [4 4]. So, we get 6-2 = 4 - (X4)
+
+The remaining slots should be filled by numbers from the set {4,4,6,6}. The total ways to arrange this, taking into account that we have duplicate 4s and 6s is 4!/2!2!=6. We also need to remove the two orders are successes, namely [4 4] [6 6] and [6 6] [4 4]. So, we get 6-2 = 4 - (X4)
 
 In total, we have 3X4 = 12.
 
@@ -48,4 +52,4 @@ Since we know the total unique configurations and the number of unacceptable, we
 
 90-60 = 30
 
-Given that every configuration is equally likely, the probability all three pairs being acceptable is 1/3.
+Given that every configuration is equally likely, the probability of all three pairs being acceptable is 1/3.
