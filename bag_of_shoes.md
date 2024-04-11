@@ -8,7 +8,7 @@ An acceptable pair is one in which the size differs by a maximum of 1. So, the p
 
 What is the probability of drawing three acceptable pairs in a row?
 
-Solution
+**Solution**
 
 First, let's reframe the problem slightly.
 
