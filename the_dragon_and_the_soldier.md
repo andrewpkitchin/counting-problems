@@ -19,7 +19,7 @@ What's the probability the soldier wins?
 
 ## Solution
 
-Let \( p(n) \) be the probability the soldier wins when the dragon has \( n \) heads. We can write out the probability for each value of \( n \) by referring to the probabilities of the actions that can happen on each turn. We get,
+Let $p(n)$ be the probability the soldier wins when the dragon has \( n \) heads. We can write out the probability for each value of \( n \) by referring to the probabilities of the actions that can happen on each turn. We get,
 
 - p(0) = 1,
 - p(1) = p(2),
