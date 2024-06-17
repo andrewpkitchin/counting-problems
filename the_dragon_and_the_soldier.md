@@ -21,9 +21,9 @@ What's the probability the soldier wins?
 
 Let \( p(n) \) be the probability the soldier wins when the dragon has \( n \) heads. We can write out the probability for each value of \( n \) by referring to the probabilities of the actions that can happen on each turn. We get,
 
-- \( p(0) = 1 \),
-- \( p(1) = p(2) \),
-- \( p(2) = \frac{1}{2} p(0) + \frac{1}{2} p(3) \),
+- p(0) = 1,
+- p(1) = p(2),
+- p(2) = \frac{1}{2} p(0) + \frac{1}{2} p(3),
 - \( p(3) = \frac{1}{2} p(1) + \frac{1}{2} p(4) \),
 - \( p(4) = \frac{1}{2} p(2) + \frac{1}{2} p(5) \),
 - \( p(5) = 0 \).
