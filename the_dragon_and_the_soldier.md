@@ -34,7 +34,7 @@ By substitution, we have
 - $p(3) = \frac{1}{2} p(2) + \frac{1}{4} p(2)$, which gives us $p(3) = \frac{3}{4} p(2)$,
 - $p(2) = \frac{1}{2} + \frac{3}{8} p(2)$, which gives us $p(2) = \frac{4}{5}$.
 
-Finally, we combine these results to get $ p(3) = \frac{3}{5}$.
+Finally, we combine these results to get $p(3) = \frac{3}{5}$.
 
 For completeness, we state the probability of the soldier winning from every game state:
 
