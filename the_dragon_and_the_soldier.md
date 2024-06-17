@@ -31,8 +31,8 @@ Let $p(n)$ be the probability the soldier wins when the dragon has $n$ heads. We
 By substitution, we have
 
 - $p(4) =  \frac{1}{2} p(2)$,
-- $p(3) = \frac{1}{2} p(2) + \frac{1}{4} p(2)$, which gives us $ p(3) = \frac{3}{4} p(2)$,
-- $p(2) = \frac{1}{2} + \frac{3}{8} p(2)$, which gives us $ p(2) = \frac{4}{5}$.
+- $p(3) = \frac{1}{2} p(2) + \frac{1}{4} p(2)$, which gives us $p(3) = \frac{3}{4} p(2)$,
+- $p(2) = \frac{1}{2} + \frac{3}{8} p(2)$, which gives us $p(2) = \frac{4}{5}$.
 
 Finally, we combine these results to get $ p(3) = \frac{3}{5}$.
 
